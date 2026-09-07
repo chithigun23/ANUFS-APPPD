@@ -90,11 +90,11 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "067e54e9-df35-4fbb-be0f-e16d66041d66")
-		(at 25.75 25.5)
+		(at 43.5 100.5)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C10"
-			(at 0 -1.68 0)
+			(at 3.5 0 0)
 			(layer "F.SilkS")
 			(uuid "fc9ee200-9eeb-4688-8e9e-95123ebbd61f")
 			(effects
@@ -1693,7 +1693,7 @@
 	(footprint "apppd:SW-SMD_L3.9-W3.0-P4.45"
 		(layer "F.Cu")
 		(uuid "2cef9a65-9862-4039-83b7-813ef60dd4f4")
-		(at 19.25 29.25)
+		(at 43.5 104.5)
 		(property "Reference" "SW2"
 			(at 0 -2.25 0)
 			(layer "F.SilkS")
@@ -1746,6 +1746,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1938,7 +1939,7 @@
 			(uuid "7899d69f-af22-4609-93d2-f7cd77123fc1")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Documents/KiCad/easyeda2kicad/easyeda2kicad.3dshapes/SW-SMD_L3.9-W2.9-H2.0-LS4.8.wrl"
+		(model "${KIPRJMOD}/library/3d/SW-SMD_L3.9-W2.9-H2.0-LS4.8.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2974,7 +2975,7 @@
 	(footprint "apppd:SW-SMD_L3.9-W3.0-P4.45"
 		(layer "F.Cu")
 		(uuid "422d642f-ae61-4c18-b063-0d06f6d3d5f8")
-		(at 19.5 22.25)
+		(at 43.5 97.75)
 		(property "Reference" "SW1"
 			(at 0 -2.25 0)
 			(layer "F.SilkS")
@@ -3027,6 +3028,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3219,7 +3221,7 @@
 			(uuid "d05f7c62-1d8e-4cc2-92bc-49698adae693")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Documents/KiCad/easyeda2kicad/easyeda2kicad.3dshapes/SW-SMD_L3.9-W2.9-H2.0-LS4.8.wrl"
+		(model "${KIPRJMOD}/library/3d/SW-SMD_L3.9-W2.9-H2.0-LS4.8.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4027,11 +4029,11 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "56118d70-78ef-4856-9909-5ac350c284dd")
-		(at 25.5 29.25)
+		(at 43.5 107.5)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R1"
-			(at 0 -1.65 0)
+			(at 3 0 0)
 			(layer "F.SilkS")
 			(uuid "e589d749-7a40-4263-bbc1-37e02f070a52")
 			(effects
@@ -4984,6 +4986,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5340,7 +5343,7 @@
 			(uuid "47d97907-5945-4b8a-9d9c-01e57f7d7b4f")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/chith/Documents/KiCad/easyeda2kicad/easyeda2kicad.3dshapes/USB-C-SMD_TYPE-C-6PIN-2MD-073.wrl"
+		(model "${KIPRJMOD}/library/3d/USB-C-SMD_TYPE-C-6PIN-2MD-073.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9440,6 +9443,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
