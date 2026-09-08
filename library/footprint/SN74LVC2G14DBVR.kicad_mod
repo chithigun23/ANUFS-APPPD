@@ -274,7 +274,7 @@
 		(roundrect_rratio 0.25)
 	)
 	(embedded_fonts no)
-	(model "C:/Users/chith/Desktop/bspd/bspd-library/3d/SN74LVC2G14DBVR.step"
+	(model "${KIPRJMOD}/library/3d/SN74LVC2G14DBVR.step"
 		(offset
 			(xyz 0 0 0)
 		)
