@@ -9185,7 +9185,7 @@
 	)
 	(text "SMPS"
 		(exclude_from_sim no)
-		(at 244.602 143.002 0)
+		(at 242.824 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19208,6 +19208,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 172.72 226.06 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6515b12e-cf65-4ff0-b7b6-ef78379ed8f3")
+		(property "Reference" "C29"
+			(at 175.006 224.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 175.006 227.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 171.7548 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 172.72 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a1b5843b-017b-4556-ba2f-d90af631f95f")
+		)
+		(pin "1"
+			(uuid "5de93fda-20c2-4c85-92b1-8cb113939e54")
+		)
+		(instances
+			(project "apppd"
+				(path "/a8b9181f-aad2-4ac0-b955-77d7b04bcf42"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 186.69 151.13 0)
 		(unit 1)
@@ -22428,87 +22509,6 @@
 			(project "apppd"
 				(path "/a8b9181f-aad2-4ac0-b955-77d7b04bcf42"
 					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 172.72 224.79 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9af845f3-2b8e-4eb4-8f6d-71406c93c2ac")
-		(property "Reference" "C29"
-			(at 175.006 223.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF"
-			(at 175.006 226.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 171.7548 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 172.72 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b2299977-b703-4bf6-bbac-da9b545665d8")
-		)
-		(pin "1"
-			(uuid "f45e9230-7cad-42bf-8d92-e615feda48de")
-		)
-		(instances
-			(project "apppd"
-				(path "/a8b9181f-aad2-4ac0-b955-77d7b04bcf42"
-					(reference "C29")
 					(unit 1)
 				)
 			)
