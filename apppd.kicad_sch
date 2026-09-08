@@ -7834,121 +7834,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "telemetry:2601-1102"
 			(body_styles demorgan)
 			(pin_names
@@ -9651,12 +9536,6 @@
 		(uuid "7ee48134-e793-4d6f-9f61-3573c537ae5a")
 	)
 	(junction
-		(at 102.87 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7ef6fd83-045e-487f-ac5f-2ea3738196e1")
-	)
-	(junction
 		(at 262.89 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9793,6 +9672,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bec5a43c-d20e-4bcb-b84c-23e49793f660")
+	)
+	(junction
+		(at 102.87 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c09776fd-f8fe-48e2-9eae-467e5a693c0a")
 	)
 	(junction
 		(at 66.04 54.61)
@@ -9999,12 +9884,20 @@
 		(uuid "ae522971-a73b-4d67-86f0-95e2a4a040f1")
 	)
 	(no_connect
+		(at 58.42 137.16)
+		(uuid "b098bc70-7528-437e-a472-b9cc2a4c93da")
+	)
+	(no_connect
 		(at 93.98 127)
 		(uuid "b625cbe9-38b9-47d4-94c5-ad6dc4fad391")
 	)
 	(no_connect
 		(at 58.42 127)
 		(uuid "b98e8966-dd95-43e5-90d2-609fb64beac6")
+	)
+	(no_connect
+		(at 58.42 139.7)
+		(uuid "d936b4ec-76c6-4c1d-9b1a-5ff818e25689")
 	)
 	(no_connect
 		(at 58.42 167.64)
@@ -10103,16 +9996,6 @@
 			(type default)
 		)
 		(uuid "096c9f20-3d6c-4ff5-9807-7039f96a1f6f")
-	)
-	(wire
-		(pts
-			(xy 102.87 87.63) (xy 109.22 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09769043-3b48-4623-86b3-062adfd6f72e")
 	)
 	(wire
 		(pts
@@ -12246,6 +12129,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 87.63) (xy 109.22 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bde97d41-31b7-4c23-8402-31443b57136b")
+	)
+	(wire
+		(pts
 			(xy 163.83 234.95) (xy 172.72 234.95)
 		)
 		(stroke
@@ -13086,6 +12979,30 @@
 			)
 		)
 	)
+	(global_label "ETB_FET"
+		(shape input)
+		(at 240.03 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "069587c1-c676-4ca7-9bd8-8e3695e16361")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.4854 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "+3V3"
 		(shape input)
 		(at 27.94 114.3 180)
@@ -13251,30 +13168,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "IGN_CUT"
-		(shape input)
-		(at 58.42 137.16 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "19598ef2-d5d4-4065-8655-93ff5b9f3339")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 47.6938 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -13710,30 +13603,6 @@
 			)
 		)
 	)
-	(global_label "ETB_CUT"
-		(shape input)
-		(at 240.03 68.58 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "782cc961-295b-4c1d-b8ec-6bfe0e876375")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.1225 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "CYST_IN"
 		(shape input)
 		(at 58.42 114.3 180)
@@ -13875,30 +13744,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "ETB_CUT"
-		(shape input)
-		(at 58.42 139.7 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a6d6f277-5d77-4ec1-ab38-704d6dda36af")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 47.5125 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -14094,30 +13939,6 @@
 			)
 		)
 	)
-	(global_label "IGN_CUT"
-		(shape input)
-		(at 240.03 30.48 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c5dc7b82-eda1-493d-bd1c-ff30f4611b04")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.3038 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "APPS1_RAW"
 		(shape input)
 		(at 99.06 196.85 180)
@@ -14275,6 +14096,30 @@
 		(uuid "df50194c-004d-4384-b95d-79cfddd88312")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 85.2496 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "IGN_FET"
+		(shape input)
+		(at 240.03 30.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e0bd54f2-9a68-4735-b7bb-72523c6b6213")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.6667 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14749,7 +14594,7 @@
 				)
 			)
 		)
-		(property "Value" "Earth"
+		(property "Value" "GND"
 			(at 104.14 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -14986,7 +14831,7 @@
 				)
 			)
 		)
-		(property "Value" "Earth"
+		(property "Value" "GND"
 			(at 242.57 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -15949,7 +15794,7 @@
 				)
 			)
 		)
-		(property "Value" "Earth"
+		(property "Value" "GND"
 			(at 172.72 262.89 0)
 			(hide yes)
 			(show_name no)
@@ -16426,7 +16271,7 @@
 				)
 			)
 		)
-		(property "Value" "Earth"
+		(property "Value" "GND"
 			(at 146.05 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -16765,7 +16610,7 @@
 				)
 			)
 		)
-		(property "Value" "Earth"
+		(property "Value" "GND"
 			(at 146.05 261.62 0)
 			(hide yes)
 			(show_name no)
@@ -19418,7 +19263,7 @@
 				)
 			)
 		)
-		(property "Value" "Earth"
+		(property "Value" "GND"
 			(at 172.72 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -19655,7 +19500,7 @@
 				)
 			)
 		)
-		(property "Value" "Earth"
+		(property "Value" "GND"
 			(at 104.14 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -20132,7 +19977,7 @@
 				)
 			)
 		)
-		(property "Value" "Earth"
+		(property "Value" "GND"
 			(at 266.7 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -20211,7 +20056,7 @@
 				)
 			)
 		)
-		(property "Value" "Earth"
+		(property "Value" "GND"
 			(at 104.14 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -20983,86 +20828,6 @@
 			(project "apppd"
 				(path "/a8b9181f-aad2-4ac0-b955-77d7b04bcf42"
 					(reference "#PWR068")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 102.87 87.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a286f06-ded9-40c2-89a2-be7d1e7de5b9")
-		(property "Reference" "#PWR044"
-			(at 102.87 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 102.8699 91.44 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 102.87 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 102.87 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bae4ea22-64f9-4903-9774-69c16224b663")
-		)
-		(instances
-			(project "apppd"
-				(path "/a8b9181f-aad2-4ac0-b955-77d7b04bcf42"
-					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -23578,7 +23343,7 @@
 				)
 			)
 		)
-		(property "Value" "Earth"
+		(property "Value" "GND"
 			(at 146.05 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -24415,7 +24180,7 @@
 				)
 			)
 		)
-		(property "Value" "Earth"
+		(property "Value" "GND"
 			(at 172.72 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -24786,6 +24551,85 @@
 			(project "apppd"
 				(path "/a8b9181f-aad2-4ac0-b955-77d7b04bcf42"
 					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 102.87 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "baeda9b8-4b48-41fd-9a95-9634e35cc2ae")
+		(property "Reference" "#PWR072"
+			(at 102.87 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 102.87 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4bbc7fe5-92f2-4218-baf0-27b3309505e9")
+		)
+		(instances
+			(project "apppd"
+				(path "/a8b9181f-aad2-4ac0-b955-77d7b04bcf42"
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -25371,7 +25215,7 @@
 				)
 			)
 		)
-		(property "Value" "Earth"
+		(property "Value" "GND"
 			(at 172.72 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -27795,7 +27639,7 @@
 				)
 			)
 		)
-		(property "Value" "Earth"
+		(property "Value" "GND"
 			(at 104.14 252.73 0)
 			(hide yes)
 			(show_name no)
@@ -28031,7 +27875,7 @@
 				)
 			)
 		)
-		(property "Value" "Earth"
+		(property "Value" "GND"
 			(at 146.05 247.65 0)
 			(hide yes)
 			(show_name no)
