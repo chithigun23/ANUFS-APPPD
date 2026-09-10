@@ -200,7 +200,7 @@
 		(uuid "0b20388b-f15e-4d58-8899-27f4f4d51a00")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/chith/Desktop/telemetry/telemetry-library/3d/ABM8AIG-24.000MHz-8-2Z-T.STEP"
+	(model "${KIPRJMOD}/library/3d/ABM8AIG-24.000MHz-8-2Z-T.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

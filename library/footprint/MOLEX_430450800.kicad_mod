@@ -296,7 +296,7 @@
 		(uuid "15930849-3d90-4c8e-8df6-13d15331ecb5")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/chith/Desktop/bspd/bspd-library/3d/MOLEX_430450800.stp"
+	(model "${KIPRJMOD}/library/3d/MOLEX_430450800.stp"
 		(offset
 			(xyz -4.5 -9 0.5)
 		)

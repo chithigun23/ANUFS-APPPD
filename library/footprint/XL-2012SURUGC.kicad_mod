@@ -267,7 +267,7 @@
 		(uuid "8605145b-1608-4c52-a3cc-d0e098b6c974")
 	)
 	(embedded_fonts no)
-	(model "${TELEM_LIB}/3d/LED-SMD_4P-L2.0-W1.3-RD-TL.step"
+	(model "${KIPRJMOD}/library/3d/XL-2012SURUGC.step"
 		(offset
 			(xyz 0 0 0)
 		)
