@@ -6705,205 +6705,205 @@
 			)
 			(embedded_fonts no)
 		)
-			(symbol "apppd:SMF16A"
-				(pin_numbers
-					(hide yes)
-				)
-				(pin_names
-					(offset 1.016)
-					(hide yes)
-				)
-				(exclude_from_sim no)
-				(in_bom yes)
-				(on_board yes)
-				(in_pos_files yes)
-				(duplicate_pin_numbers_are_jumpers no)
-				(property "Reference" "D"
-					(at 0 2.54 0)
-					(show_name no)
-					(do_not_autoplace no)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(property "Value" "SMF16A"
-					(at 0 -2.54 0)
-					(show_name no)
-					(do_not_autoplace no)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(property "Footprint" "apppd:SMF16A"
-					(at 0 0 0)
-					(show_name no)
-					(do_not_autoplace no)
-					(hide yes)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(property "Datasheet" "https://www.littelfuse.com/products/overvoltage-protection/tvs-diodes/surface-mount/smf/smf16a"
-					(at 0 0 0)
-					(show_name no)
-					(do_not_autoplace no)
-					(hide yes)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(property "Description" "200W unidirectional TVS diode, Vrwm 16V, Vbr 17.8-19.7V, Vc 26V max @ Ipp 7.2A (10/1000us), SOD-123FL"
-					(at 0 0 0)
-					(show_name no)
-					(do_not_autoplace no)
-					(hide yes)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(property "Manufacturer" "Littelfuse"
-					(at 0 0 0)
-					(show_name no)
-					(do_not_autoplace no)
-					(hide yes)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(property "MPN" "SMF16A"
-					(at 0 0 0)
-					(show_name no)
-					(do_not_autoplace no)
-					(hide yes)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(property "LCSC Part" "C207257"
-					(at 0 0 0)
-					(show_name no)
-					(do_not_autoplace no)
-					(hide yes)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(property "ki_keywords" "TVS diode transient voltage suppressor zener 200W 16V SOD-123FL unidirectional"
-					(at 0 0 0)
-					(show_name no)
-					(do_not_autoplace no)
-					(hide yes)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(property "ki_fp_filters" "D*SOD?123F* SMF16A*"
-					(at 0 0 0)
-					(show_name no)
-					(do_not_autoplace no)
-					(hide yes)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(symbol "SMF16A_0_1"
-					(polyline
-						(pts
-							(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
-						)
-						(stroke
-							(width 0.254)
-							(type default)
-						)
-						(fill
-							(type none)
-						)
-					)
-					(polyline
-						(pts
-							(xy 1.27 0) (xy -1.27 0)
-						)
-						(stroke
-							(width 0)
-							(type default)
-						)
-						(fill
-							(type none)
-						)
-					)
-					(polyline
-						(pts
-							(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-						)
-						(stroke
-							(width 0.254)
-							(type default)
-						)
-						(fill
-							(type none)
-						)
-					)
-				)
-				(symbol "SMF16A_1_1"
-					(pin passive line
-						(at -3.81 0 0)
-						(length 2.54)
-						(name "K"
-							(effects
-								(font
-									(size 1.27 1.27)
-								)
-							)
-						)
-						(number "1"
-							(effects
-								(font
-									(size 1.27 1.27)
-								)
-							)
-						)
-					)
-					(pin passive line
-						(at 3.81 0 180)
-						(length 2.54)
-						(name "A"
-							(effects
-								(font
-									(size 1.27 1.27)
-								)
-							)
-						)
-						(number "2"
-							(effects
-								(font
-									(size 1.27 1.27)
-								)
-							)
-						)
-					)
-				)
-				(embedded_fonts no)
+		(symbol "apppd:SMF16A"
+			(pin_numbers
+				(hide yes)
 			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMF16A"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "apppd:SMF16A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.littelfuse.com/products/overvoltage-protection/tvs-diodes/surface-mount/smf/smf16a"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "200W unidirectional TVS diode, Vrwm 16V, Vbr 17.8-19.7V, Vc 26V max @ Ipp 7.2A (10/1000us), SOD-123FL"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Littelfuse"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "SMF16A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C207257"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "TVS diode transient voltage suppressor zener 200W 16V SOD-123FL unidirectional"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?123F* SMF16A*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SMF16A_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SMF16A_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "apppd:XL-2012SURUGC"
 			(exclude_from_sim no)
 			(in_bom yes)
