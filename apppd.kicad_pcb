@@ -1221,7 +1221,7 @@
 		(layer "F.Cu")
 		(uuid "0ccddc3d-d199-4b50-87b9-3f81c2f26e7e")
 		(at 16 16)
-		(property "Reference" ""
+		(property "Reference" "H1"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "13d301f5-d2be-45e7-bb04-a826ab4b6516")
@@ -1231,7 +1231,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "MountingHole_Pad"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "8fbd915c-3ea5-41da-9539-f7c83c4455fc")
@@ -1252,7 +1252,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1263,6 +1263,10 @@
 				)
 			)
 		)
+		(path "/cbb8d16c-b214-4155-94c8-82e2776593ba")
+		(sheetname "/")
+		(sheetfile "apppd.kicad_sch")
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -6663,7 +6667,7 @@
 		(layer "F.Cu")
 		(uuid "5abb3e73-f20e-491d-aa5e-550b4036f3a0")
 		(at 16 56)
-		(property "Reference" ""
+		(property "Reference" "H2"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "509fedae-c0b2-4760-b0e1-7c310187d439")
@@ -6673,7 +6677,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "MountingHole_Pad"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "b49dc03e-ded1-454e-9ca8-c6183c222806")
@@ -6694,7 +6698,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6705,6 +6709,10 @@
 				)
 			)
 		)
+		(path "/2d23c3a1-1f65-44e2-9fc5-b59e65281059")
+		(sheetname "/")
+		(sheetfile "apppd.kicad_sch")
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -8043,7 +8051,7 @@
 				)
 			)
 		)
-		(property "Description" "Automotive bidirectional TVS diode, Vrwm 6.0V, Vbr 8.5V min, Vc 15.6V typ @ Ipp 10A (8/20us), 30pF, AEC-Q101, SOD-882"
+		(property "Description" "Automotive bidirectional TVS diode, Vrwm 6.0V, Vbr 8.5V typ / 9.5V max, Vc 9.3V @ Ipp 1A / 10.0V @ Ipp 2A (8/20us), Ipp(max) 8A (8/20us), 30pF, AEC-Q101, SOD-882"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8367,7 +8375,7 @@
 				)
 			)
 		)
-		(property "Description" "Automotive bidirectional TVS diode, Vrwm 6.0V, Vbr 8.5V min, Vc 15.6V typ @ Ipp 10A (8/20us), 30pF, AEC-Q101, SOD-882"
+		(property "Description" "Automotive bidirectional TVS diode, Vrwm 6.0V, Vbr 8.5V typ / 9.5V max, Vc 9.3V @ Ipp 1A / 10.0V @ Ipp 2A (8/20us), Ipp(max) 8A (8/20us), 30pF, AEC-Q101, SOD-882"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9666,7 +9674,7 @@
 				)
 			)
 		)
-		(property "Description" "Automotive bidirectional TVS diode, Vrwm 6.0V, Vbr 8.5V min, Vc 15.6V typ @ Ipp 10A (8/20us), 30pF, AEC-Q101, SOD-882"
+		(property "Description" "Automotive bidirectional TVS diode, Vrwm 6.0V, Vbr 8.5V typ / 9.5V max, Vc 9.3V @ Ipp 1A / 10.0V @ Ipp 2A (8/20us), Ipp(max) 8A (8/20us), 30pF, AEC-Q101, SOD-882"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14902,7 +14910,7 @@
 		(layer "F.Cu")
 		(uuid "c1d12196-17f6-401b-b2d7-6ebaa515c59c")
 		(at 67.5 56)
-		(property "Reference" ""
+		(property "Reference" "H3"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "7cce1c4d-e7aa-4b89-b9d9-41f5ec6cfa94")
@@ -14912,7 +14920,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "MountingHole_Pad"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "676b3463-3656-491b-ad28-e1acacecc4ff")
@@ -14933,7 +14941,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14944,6 +14952,10 @@
 				)
 			)
 		)
+		(path "/8a9a9953-4c0b-4c23-9021-bb6d6c2bdc19")
+		(sheetname "/")
+		(sheetfile "apppd.kicad_sch")
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -16293,7 +16305,7 @@
 		(layer "F.Cu")
 		(uuid "d43a75b7-cd82-48f2-9232-306b369d9055")
 		(at 67.5 16)
-		(property "Reference" ""
+		(property "Reference" "H4"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "792e942c-fcd3-450a-97b3-4496c6092d35")
@@ -16303,7 +16315,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "MountingHole_Pad"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "e25821c7-6798-458c-a963-449135b80ed0")
@@ -16324,7 +16336,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16335,6 +16347,10 @@
 				)
 			)
 		)
+		(path "/d2aea81b-9dcc-48e7-8a8b-95ffc3b65895")
+		(sheetname "/")
+		(sheetfile "apppd.kicad_sch")
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -18843,7 +18859,7 @@
 				)
 			)
 		)
-		(property "Description" "Automotive bidirectional TVS diode, Vrwm 6.0V, Vbr 8.5V min, Vc 15.6V typ @ Ipp 10A (8/20us), 30pF, AEC-Q101, SOD-882"
+		(property "Description" "Automotive bidirectional TVS diode, Vrwm 6.0V, Vbr 8.5V typ / 9.5V max, Vc 9.3V @ Ipp 1A / 10.0V @ Ipp 2A (8/20us), Ipp(max) 8A (8/20us), 30pF, AEC-Q101, SOD-882"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
